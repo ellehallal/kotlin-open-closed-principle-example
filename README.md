@@ -1,5 +1,3 @@
-# Kotlin / Gradle Project Starter Kit
+# Kotlin Open / Closed Principle Example
 
 
-## Tests
-- junit jupiter
