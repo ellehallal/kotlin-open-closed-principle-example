@@ -7,5 +7,8 @@ fun main(args: Array<String>) {
     val myAnimals = arrayOf(gina, frankie, paula, eve)
     val myZoo = ZooTwo(myAnimals)
 
+//    val myAnimals = arrayOf("giraffe", "ferret", "penguin")
+//    val myZoo = Zoo(myAnimals)
+
     myZoo.feedAnimals()
 }
