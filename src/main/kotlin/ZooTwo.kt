@@ -1,12 +1,9 @@
 class ZooTwo constructor(private val animals: Array<Animal>) {
 
     fun feedAnimals(): Unit {
-        for (animal in animals) {
-            animal.feed()
-        }
+        for (animal in animals) animal.feed()
     }
 }
-
 
 interface Animal {
     fun feed()
@@ -16,7 +13,6 @@ class Giraffe: Animal {
     override fun feed() {
         println("Feeding the giraffe acacia leaves and twigs.")
     }
-
 }
 
 class Ferret: Animal {
